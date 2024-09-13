@@ -1,0 +1,24 @@
+{
+  "vcjs": {
+    "prefix": "vcjc",
+    "body": [
+      "<script setup>",
+      "</script>",
+      "<template>",
+      "$0",
+      "</template>"
+    ],
+    "description": "Vue Snippet: 'Composition API' JavaScript component"
+  },
+  "vcts": {
+    "prefix": "vcts",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "</script>",
+      "<template>",
+      "$0",
+      "</template>"
+    ],
+    "description": "Vue Snippet: 'Composition API' TypeScript component"
+  }
+}

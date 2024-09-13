@@ -1,0 +1,21 @@
+{
+  "name": "bkn-vue-snippets",
+  "displayName": "Bkn Vue Snippets",
+  "description": "Snippets for Vue 2/3",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}
