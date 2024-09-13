@@ -1,7 +1,5 @@
 # Change Log
 
-## Updates 0.0.2
+## Updates 0.3.0
 
-- `vcjs` renamed to `vujs`
-- `vcts` renamed to `vuts`
-- Added `vu` snippet 
+- add vuo snippet

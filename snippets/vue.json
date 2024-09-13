@@ -1,33 +1,49 @@
 {
-  "vujs": {
+  "Vue JavaScript Composition API": {
     "prefix": "vujs",
     "body": [
       "<script setup>",
       "</script>",
       "<template>",
-      "$0",
+      "$BLOCK_COMMENT_START Your template here $BLOCK_COMMENT_END $0",
       "</template>"
     ],
     "description": "Vue Snippet: 'Composition API' JavaScript component"
   },
-  "vuts": {
+  "Vue TypeScript Composition API": {
     "prefix": "vuts",
     "body": [
       "<script lang=\"ts\" setup>",
       "</script>",
       "<template>",
-      "$0",
+      "$BLOCK_COMMENT_START Your template here $BLOCK_COMMENT_END $0",
       "</template>"
     ],
     "description": "Vue Snippet: 'Composition API' TypeScript component"
   },
-  "vu": {
+  "Vue \"template-Only\" component": {
     "prefix": "vu",
     "body": [
       "<template>",
       "$0",
       "</template>"
     ],
-    "description": "Vue Snippet: Only templates"
+    "description": "Vue Snippet:Without \"<script>\" tags \"Template-only\" component"
+  },
+  "Vue JavaScript Options API component": {
+    "prefix": "vuo",
+    "body": [
+      "<script>",
+      "export default {",
+      " name: \"${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}\",",
+      " data() {",
+      "   return {};",
+      " },",
+      "}",
+      "</script>",
+      "<template>",
+      "$0",
+      "</template>"
+    ]
   }
 }
