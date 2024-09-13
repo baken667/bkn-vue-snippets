@@ -1,6 +1,9 @@
 {
   "name": "bkn-vue-snippets",
   "displayName": "Bkn Vue Snippets",
+  "author": "Bauyrzhan Akhemtov <baken.wws@gmail.com>",
+  "publisher": "baken667",
+  "icon": "img/logo.png",
   "description": "Snippets for Vue 2/3",
   "version": "0.0.1",
   "engines": {
@@ -17,5 +20,17 @@
       }
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baken667/bkn-vue-snippets"
+  },
+  "keywords": [
+    "vue",
+    "snippet",
+    "vue 3",
+    "Composition API",
+    "Vue snippets",
+    "Vue script setup"
+  ]
 }
