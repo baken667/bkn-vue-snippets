@@ -32,7 +32,7 @@ This extension adds new snippets for `.vue` files, helping you quickly scaffold 
 - Install the extension via the VSCode marketplace by searching for `Bkn Code Snippets`.
 - Alternatively, you can install it directly from the command line:
     ```bash
-    code --install-extension bkn-vue-snippets
+    code --install-extension baken667.bkn-vue-snippets
     ```
 
 ## How to use?
