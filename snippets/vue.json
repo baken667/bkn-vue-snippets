@@ -1,6 +1,6 @@
 {
-  "vcjs": {
-    "prefix": "vcjc",
+  "vujs": {
+    "prefix": "vujs",
     "body": [
       "<script setup>",
       "</script>",
@@ -10,8 +10,8 @@
     ],
     "description": "Vue Snippet: 'Composition API' JavaScript component"
   },
-  "vcts": {
-    "prefix": "vcts",
+  "vuts": {
+    "prefix": "vuts",
     "body": [
       "<script lang=\"ts\" setup>",
       "</script>",
@@ -20,5 +20,14 @@
       "</template>"
     ],
     "description": "Vue Snippet: 'Composition API' TypeScript component"
+  },
+  "vu": {
+    "prefix": "vu",
+    "body": [
+      "<template>",
+      "$0",
+      "</template>"
+    ],
+    "description": "Vue Snippet: Only templates"
   }
 }

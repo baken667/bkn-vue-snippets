@@ -5,7 +5,7 @@
   "publisher": "baken667",
   "icon": "img/logo.png",
   "description": "Snippets for Vue 2/3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.93.0"
   },
